@@ -51,5 +51,5 @@ EM RESUMO:
 3 - salvo tudo
 4 - faço commit: git commit -m "first commit"
 5 - faço push: git push -u origin main
-6 - crio a nova tag da versão: $ git tag -a v1.0.0 -m "minha versão 1.0.0"
+6 - crio a nova tag da versão: $ git tag -a 1.0.0 -m "minha versão 1.0.0"
 7 - faço push da tag da vesão : $ git push origin main 1.0.0
