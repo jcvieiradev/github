@@ -24,7 +24,7 @@ git push -u origin main
 https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Criando-Tags:
 
 2.6 Fundamentos de Git - Criando Tags
-$ git tag -a v1.4 -m "my version 1.4"
+$ git tag -a v1.0.0 -m "minha versão 1.0.0"
 $ git tag : lista tags
 v0.1
 v1.3
@@ -36,4 +36,10 @@ Você terá que explicitamente enviar as tags para o servidor de
 compartilhamento depois de tê-las criado. Esse processo é semelhante 
 a compartilhar branches remotos – você pode executar git push origin [tagname].
 
-$ $ git push origin v1.5
+$ $ git push origin main 1.0.0
+
+
+Para remover uma tag no Git, você pode usar o comando git tag -d seguido 
+pelo nome da tag que você deseja excluir. Aqui estão os passos:
+
+git tag -d <nome-da-tag>
