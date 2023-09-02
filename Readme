@@ -29,3 +29,11 @@ $ git tag : lista tags
 v0.1
 v1.3
 v1.4
+
+Compartilhando Tags
+Por padrão, o comando git push não envia as tags para os servidores remoto. 
+Você terá que explicitamente enviar as tags para o servidor de 
+compartilhamento depois de tê-las criado. Esse processo é semelhante 
+a compartilhar branches remotos – você pode executar git push origin [tagname].
+
+$ git push origin v1.5
