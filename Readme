@@ -21,3 +21,11 @@ git push -u origin main
 
 2 - Mudei o arquivo no github para testar o pull.
 
+https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Criando-Tags:
+
+2.6 Fundamentos de Git - Criando Tags
+$ git tag -a v1.4 -m "my version 1.4"
+$ git tag : lista tags
+v0.1
+v1.3
+v1.4
